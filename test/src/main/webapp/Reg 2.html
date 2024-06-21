@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+	<form action="Store.jsp" method="post">
+	<table align="center">
+		<tr>
+			<th colspan="2" style="padding:20px;">Registration Page</th>
+		</tr>
+		<tr>
+			<td>
+				Name : 
+			</td>
+			<td>
+				<input type="text"  name="rname">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Email :
+			</td>
+			<td>
+				<input type="email"  name="remail">
+			</td>
+		<tr>
+			<td>
+			Gender :
+			</td>
+			<td>
+			<input type="radio" name="rgender" value="Male">Male
+			<input type="radio" name="rgender"value="Female">FeMale
+			<input type="radio" name="rgender" value="Others">Others
+			</td>
+		</tr>
+		<tr>
+			<td>
+			Enter Password :
+			</td>
+			<td>
+				<input type="password" name="renterPass">
+			</td>
+		</tr> 
+		<tr>
+			<td>
+			Confirm Password :
+			</td>
+			<td>
+				<input type="password" name="rconfirmPass">
+			</td>
+		</tr> 
+		<tr>
+			<td>
+			</td>
+			<td style="padding:10px; ">
+			    <input type="reset" value="Clean">
+				&nbsp<input type="submit" value="Signup">
+			</td>
+		</tr> 
+		
+	</table>
+   </form>
+   <h5 align = "center" > Or</h5>
+   <form  action="Get.html" method="post" >
+   <table align="center">
+     <tr>
+     <td>
+     </td>
+     <td style="padding:1px;">
+          <input type="submit" value="Login">
+     </td>
+     </tr>
+   </table>
+   </form>
+</body>
+</html>
